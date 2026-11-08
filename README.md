@@ -2,7 +2,7 @@
 
 Bu depo, **Araştırma Yöntem ve Teknikleri** dersi dönem projesi kapsamında oluşturulmuştur.
 
-- **Proje Adı:** SpotiMetrik: Spotify Ses Özellikleri ile Şarkı Popülerliği Analizi ve Tahmini
+- **Proje Adı:** Spotify Ses Özellikleri ile Şarkı Popülerliği Analizi ve Tahmini
 
 ## 1. Proje Konusu ve Problem
 Dijital müzik platformlarında her gün binlerce şarkı yayımlanmaktadır. Bir şarkının teknik ses özelliklerinin (enerji, dans edilebilirlik, ses yüksekliği, tempo, akustiklik vb.) dinleyiciler tarafından beğenilmesini ve popülerlik puanını (0–100) ne kadar etkilediğini incelemek amacıyla bu proje konusu seçilmiştir.
