@@ -63,3 +63,30 @@ Projenin nesne yönelimli (OOP) yazılım yapısını, sınıfların alanların�
   - `MLModel` (Soyut Sınıf): Tüm modeller için ortak `egit()`, `tahmin_et()`, `degerlendir()` arayüzünü belirler.
   - `DogrusalRegresyonModeli` ve `RandomForestModeli`: `MLModel` taban sınıfından kalıtım (`generalization/inheritance`) alan somut model sınıflarıdır.
   - `DegerlendirmeVeGorsellestirme`: Korelasyon haritası, hata dağılımı ve model karşılaştırma raporu üreten servis sınıfıdır.
+
+
+**# Spotify Şarkı Popülerlik Analizi — 6. Hafta Veri Analizi Güncellemesi
+
+Bu bölüm 6. hafta Google Colab ve Veri Analizi ödevi kapsamında eklenmiştir.
+
+## Proje Dosya Düzeni
+```text
+spotify-sarki-populerlik-analizi/
+├── README.md                      # Proje ana tanıtımı ve dokümantasyon
+├── activity_diagram.png           # Sistem aktivite diyagramı
+├── class_diagram.png              # Nesne yönelimli sınıf diyagramı
+├── use_case_diagram.png           # Kullanım senaryosu diyagramı
+├── data/
+│   ├── spotify_populerlik_verisi.csv   # Şarkı öznitelikleri CSV tablosu
+│   └── spotify_populerlik_verisi.json  # Şarkı öznitelikleri JSON verisi
+├── notebooks/
+│   └── spotify_veri_analizi_hafta6.ipynb # Çalışır Google Colab analiz defteri
+├── outputs/
+│   ├── ozet.csv                        # İstatistiksel özet tablosu (CSV)
+│   ├── ozet.json                       # İstatistiksel özet tablosu (JSON)
+│   ├── populerlik_karsilastirma_sutun.png # Sütun grafiği görseli
+│   └── ses_ozellikleri_degisim_cizgi.png  # Çizgi grafiği görseli
+└── docs/
+    └── haftalik_rapor_hafta6.md        # 6. hafta ilerleme ve akademik rapor
+```
+**
