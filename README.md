@@ -65,28 +65,57 @@ Projenin nesne yönelimli (OOP) yazılım yapısını, sınıfların alanların�
   - `DegerlendirmeVeGorsellestirme`: Korelasyon haritası, hata dağılımı ve model karşılaştırma raporu üreten servis sınıfıdır.
 
 
-**# Spotify Şarkı Popülerlik Analizi — 6. Hafta Veri Analizi Güncellemesi
+---
 
-Bu bölüm 6. hafta Google Colab ve Veri Analizi ödevi kapsamında eklenmiştir.
+## 6. Veri Analizi, Betimsel İstatistikler ve Görselleştirme (Hafta 6)
 
-## Proje Dosya Düzeni
+6. hafta Google Colab ve Veri Analizi çalışması kapsamında, projeye ait açık veri setinden (Kaggle Spotify Tracks Dataset) seçilen örneklem üzerinde uçtan uca veri analizi, tanımlayıcı istatistik hesaplamaları ve görselleştirmeler yapılmıştır.
+
+### 6.1. Proje Dosya ve Klasör Düzeni
+Dönem projesi standart dosya mimarisi şu şekildedir:
+
 ```text
 spotify-sarki-populerlik-analizi/
-├── README.md                      # Proje ana tanıtımı ve dokümantasyon
-├── activity_diagram.png           # Sistem aktivite diyagramı
-├── class_diagram.png              # Nesne yönelimli sınıf diyagramı
-├── use_case_diagram.png           # Kullanım senaryosu diyagramı
+├── README.md                          # Proje ana tanıtımı ve dokümantasyon
+├── activity_diagram.png               # Sistem aktivite diyagramı
+├── class_diagram.png                  # Nesne yönelimli sınıf diyagramı
+├── use_case_diagram.png               # Kullanım senaryosu diyagramı
 ├── data/
-│   ├── spotify_populerlik_verisi.csv   # Şarkı öznitelikleri CSV tablosu
-│   └── spotify_populerlik_verisi.json  # Şarkı öznitelikleri JSON verisi
+│   ├── spotify_populerlik_verisi.csv       # Şarkı öznitelikleri CSV veri tablosu
+│   └── spotify_populerlik_verisi.json      # Şarkı öznitelikleri JSON veri dosyası
 ├── notebooks/
-│   └── spotify_veri_analizi_hafta6.ipynb # Çalışır Google Colab analiz defteri
+│   └── spotify_veri_analizi_hafta6.ipynb   # Çalışır Google Colab analiz defteri
 ├── outputs/
-│   ├── ozet.csv                        # İstatistiksel özet tablosu (CSV)
-│   ├── ozet.json                       # İstatistiksel özet tablosu (JSON)
-│   ├── populerlik_karsilastirma_sutun.png # Sütun grafiği görseli
-│   └── ses_ozellikleri_degisim_cizgi.png  # Çizgi grafiği görseli
+│   ├── ozet.csv                            # Tanımlayıcı istatistik tablosu (CSV)
+│   ├── ozet.json                           # Tanımlayıcı istatistik tablosu (JSON)
+│   ├── populerlik_karsilastirma_sutun.png  # Şarkı popülerlikleri sütun grafiği
+│   └── ses_ozellikleri_degisim_cizgi.png   # Ses öznitelikleri değişim çizgi grafiği
 └── docs/
-    └── haftalik_rapor_hafta6.md        # 6. hafta ilerleme ve akademik rapor
+    └── haftalik_rapor_hafta6.md            # 6. hafta akademik ilerleme raporu
 ```
-**
+### 6.2. Hesaplanan Temel İstatistiksel Bulgular
+İncelenen Şarkı Sayısı (Gözlem): 10 adet
+
+Toplam Popülerlik Puanı: 830 puan
+
+Ortalama Popülerlik: 83.00 puan (En düşük: 76, En yüksek: 92, Standart Sapma: 5.48)
+
+Ortalama Dans Edilebilirlik: 0.656 (0.0 – 1.0 normalize indeks)
+
+Ortalama Enerji Seviyesi: 0.641 (0.0 – 1.0 normalize indeks)
+
+Ortalama Ses Gürlüğü (Loudness): -6.89 dB
+
+Ortalama Tempo: 119.82 BPM
+
+### 6.3. Üretilen Grafikler
+Sütun Grafiği (Bar Chart): Şarkıların popülerlik puanlarının (0–100) karşılaştırılması ve ortalama referans çizgisi (outputs/populerlik_karsilastirma_sutun.png).
+
+Çizgi Grafiği (Line Chart): Popülerlik sıralamasına göre enerji, dans edilebilirlik ve pozitiflik (valence) değişim trendi (outputs/ses_ozellikleri_degisim_cizgi.png).
+
+### 6.4. Akademik Yorum ve Sınırlılıklar
+Temel Bulgu: İncelenen örneklemde en yüksek popülerliğe sahip parçaların genel olarak yüksek enerji (>0.70) ve orta-yüksek dans edilebilirlik (>0.50) bileşimine sahip olduğu görülmüştür.
+
+Sınırlılıklar: Popülerlik sadece ses dalgası ve akustik sinyal parametrelerine bağlı değildir; sanatçı popülaritesi, plak şirketi pazarlama bütçesi, Spotify başyazı (editorial) çalma listelerine giriş başarısı ve viral sosyal medya trendleri gibi dışsal değişkenler bu veri setinde yer almamaktadır.
+
+Nedensellik Uyarısı: Ses nitelikleri ile popülerlik arasındaki istatistiksel ilişki tek başına neden-sonuç (illiyet) ilişkisini kanıtlamaz; yalnızca popüler parçalarda sıkça rastlanan ortak akustik eğilimleri betimler.
