@@ -1,0 +1,12 @@
+﻿metrik,deger,birim
+Toplam Şarkı Sayısı,10.0,adet
+Toplam Popülerlik Puanı,830.0,puan
+Ortalama Popülerlik Puanı,83.0,puan (0-100)
+En Düşük Popülerlik (Min),76.0,puan
+En Yüksek Popülerlik (Maks),92.0,puan
+Popülerlik Standart Sapması,5.29,puan
+Ortalama Dans Edilebilirlik,0.656,indeks (0-1)
+Ortalama Enerji Seviyesi,0.637,indeks (0-1)
+Ortalama Ses Şiddeti (Loudness),-6.89,Desibel (dB)
+Ortalama Tempo,119.8,BPM (vuru/dk)
+Ortalama Şarkı Süresi,225.2,saniye

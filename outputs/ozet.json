@@ -1,0 +1,57 @@
+[
+  {
+    "metrik":"Toplam Şarkı Sayısı",
+    "deger":10.0,
+    "birim":"adet"
+  },
+  {
+    "metrik":"Toplam Popülerlik Puanı",
+    "deger":830.0,
+    "birim":"puan"
+  },
+  {
+    "metrik":"Ortalama Popülerlik Puanı",
+    "deger":83.0,
+    "birim":"puan (0-100)"
+  },
+  {
+    "metrik":"En Düşük Popülerlik (Min)",
+    "deger":76.0,
+    "birim":"puan"
+  },
+  {
+    "metrik":"En Yüksek Popülerlik (Maks)",
+    "deger":92.0,
+    "birim":"puan"
+  },
+  {
+    "metrik":"Popülerlik Standart Sapması",
+    "deger":5.29,
+    "birim":"puan"
+  },
+  {
+    "metrik":"Ortalama Dans Edilebilirlik",
+    "deger":0.656,
+    "birim":"indeks (0-1)"
+  },
+  {
+    "metrik":"Ortalama Enerji Seviyesi",
+    "deger":0.637,
+    "birim":"indeks (0-1)"
+  },
+  {
+    "metrik":"Ortalama Ses Şiddeti (Loudness)",
+    "deger":-6.89,
+    "birim":"Desibel (dB)"
+  },
+  {
+    "metrik":"Ortalama Tempo",
+    "deger":119.8,
+    "birim":"BPM (vuru\/dk)"
+  },
+  {
+    "metrik":"Ortalama Şarkı Süresi",
+    "deger":225.2,
+    "birim":"saniye"
+  }
+]

@@ -1,0 +1,11 @@
+﻿track_id,track_name,artists,album_name,track_genre,popularity,danceability,energy,loudness_db,tempo_bpm,valence,acousticness,duration_ms
+0VjIjW4GlUZAMYd2vXMi3b,Blinding Lights,The Weeknd,After Hours,synth-pop,92,0.514,0.73,-5.934,171.005,0.334,0.00146,200040
+4Dvkj6JhhA12EX05fT7y2e,As It Was,Harry Styles,Harry's House,pop,89,0.52,0.731,-5.338,173.93,0.662,0.342,167303
+0V3wPSX9ygBnCm8psDIegu,Anti-Hero,Taylor Swift,Midnights,pop,87,0.637,0.643,-6.571,96.954,0.533,0.13,200690
+5enxwA8aAbwZbf5ncJvyuz,Do I Wanna Know?,Arctic Monkeys,AM,indie-rock,85,0.548,0.532,-7.596,85.03,0.405,0.186,272386
+7qiZfU4dY1lWllzX7mPBI3,Shape of You,Ed Sheeran,Divide,pop,84,0.825,0.652,-3.183,95.977,0.931,0.581,233712
+4u7EnebtmKWzUH433cf5Qv,Bohemian Rhapsody,Queen,A Night at the Opera,classic-rock,81,0.414,0.404,-9.928,71.105,0.224,0.271,354320
+2xLMifvgnCxmGQ60qv6UEt,Levitating,Dua Lipa,Future Nostalgia,dance-pop,80,0.702,0.825,-3.787,103.014,0.915,0.00883,203808
+7KXjTSCq5nL1LoYtL7XAwS,HUMBLE.,Kendrick Lamar,DAMN.,hip-hop,79,0.908,0.621,-6.638,150.011,0.421,0.00028,177000
+2Foc5Q5nqNiosCNqttzHof,Get Lucky,Daft Punk ft. Pharrell Williams,Random Access Memories,disco-funk,77,0.794,0.811,-8.966,116.043,0.862,0.0426,248413
+2takcwOaAZWiRQSQapgoto,bad guy,Billie Eilish,"WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",electropop,76,0.701,0.425,-10.965,135.128,0.562,0.328,194087
